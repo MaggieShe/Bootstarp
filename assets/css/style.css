@@ -1,0 +1,382 @@
+<style>
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+h1 {
+  font-size: 28px;
+  text-align: center;
+  color:#37a000;
+}
+h2 {
+  font-size: 28px;
+  text-align: left;
+  color:#000;
+}
+h3{
+  text-align: center;
+}
+.jumbotron p{
+  font-size: 1.2em;
+}
+.well{
+  background: #fff;
+}
+.well p{
+  text-align: center;
+}
+.caption p{
+  font-size: 16px;
+  color: grey;
+  text-align: center;
+}
+.caption a{
+  text-align: center;
+}
+.caption h3{
+  font-size: 23px;
+  text-align: center;
+}
+#submit_sucess{
+  padding-top: 5%;
+  padding-left: 14%;
+  text-align: left;
+}
+#sucess img{
+  width:50px;
+}
+#sucess_text {
+  font-size: 20px;
+  color:#37a000;
+  width: 90%;
+  float: right;
+  padding-top: 4%;
+}
+
+#home_title {
+  width: 80%;
+  float: left;
+  padding-top: 7%;
+}
+#icon_buttom{
+  width: 20%;
+  float: right;
+  text-align: center;
+  padding-top: 8%;
+  padding-right: 1%;
+}
+#icon_buttom img {
+  height:2.5em;
+  padding-left: 0em;
+  padding-right: 0.5em;
+}
+#response_area{
+  border: 2px solid grey;
+  border-radius:5px;
+  padding:1.5em;
+  margin:1.5em;
+  height: 80%;
+}
+#response_area h3{
+  text-align: center;
+  font-size: 1.4em;
+}
+.con_box_icon {
+  width: 10%;
+  float: left;
+}
+.con_box_icon  img{
+  width: 50%;
+  text-align: center;
+}
+.con_box {
+  border-bottom: 1px;
+  height: 200px;
+  text-align: center;
+  width: 70%;
+  float: none;
+}
+.con_box_edit{
+  width:20%;
+  float: right;
+}
+.small_text{
+  font-size: 0.5em;
+  padding-top: 3em;
+  padding-left:1.5em;
+}
+.nav_side {
+  float: left;
+  width:30%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: auto;
+}
+#main_text {
+    overflow: hidden;
+    padding:1.5em;
+    height: 50%;
+}
+.nav_side ul {
+    text-align: left;
+    padding: 0;
+}
+.nav_side ul li {
+
+    padding-bottom: 0.8em;
+    padding-top: 0.5em;
+}
+.nav_side a {
+    text-align: left;
+    font-size: 1.1em;
+    color:black;
+
+}
+
+#fh5co-features,
+.fh5co-content-section {
+  padding: 2em 0;
+}
+@media screen and (max-width: 768px) {
+  #icon_buttom img {
+    height:1.5em;
+    padding-left: 0.5em;
+    padding-right: 1em;
+  }
+  #fh5co-features,
+  .fh5co-content-section {
+    padding: 4em 0;
+  }
+}
+#fh5co-features .feature-left {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 992px) {
+  #fh5co-features .feature-left {
+    margin-bottom: 30px;
+  }
+  #icon_buttom img {
+    height:1.5em;
+    padding-left: 0.5em;
+    padding-right: 1em;
+  }
+}
+#fh5co-features .feature-left .icon img {
+  width: 50%;
+}
+#fh5co-features .feature-left img {
+  width: 100%;
+}
+#fh5co-features .feature-left .icon {
+  float: left;
+  text-align: center;
+  width: 15%;
+}
+#fh5co-features .feature-left p{
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5em;
+}
+@media screen and (max-width: 992px) {
+  #fh5co-features .feature-left .icon {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fh5co-features .feature-left .icon {
+    width: 15%;
+  }
+}
+#fh5co-features .feature-left .feature-copy {
+  float: right;
+  width: 80%;
+}
+@media screen and (max-width: 992px) {
+  #fh5co-features .feature-left .feature-copy {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fh5co-features .feature-left .feature-copy {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #fh5co-features .feature-left .feature-copy {
+    width: 80%;
+  }
+  #icon_buttom img {
+    height:1.5em;
+    padding-left: 0.5em;
+    padding-right: 1em;
+  }
+}
+#fh5co-features .feature-left h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+#fh5co-features .feature-left p {
+  font-size: 15px;
+}
+#fh5co-features .feature-left p:last-child {
+  margin-bottom: 0;
+}
+.feature-left {
+  float: left;
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.feature-left .icon {
+  float: left;
+  text-align: center;
+  width: 15%;
+}
+@media screen and (max-width: 992px) {
+  .feature-left .icon {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .feature-left .icon {
+    width: 15%;
+  }
+}
+.feature-left .icon i {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 40px;
+  color: #37a000;
+}
+.feature-left .feature-copy {
+  float: right;
+  width: 80%;
+}
+@media screen and (max-width: 992px) {
+  .feature-left .feature-copy {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .feature-left .feature-copy {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .feature-left .feature-copy {
+    width: 80%;
+  }
+}
+.feature-left .feature-copy h3 {
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+.feature-left .feature-copy p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+/*blockquote {
+    border:1px solid black;
+    border-radius:4px;
+    width:150px
+}*/
+div.horiz-2 div{
+    margin:0;
+    width:47%;
+    display:inline-block;
+    vertical-align:top;
+}
+table.logic-gate {
+    border-collapse:collapse;
+
+}
+table.logic-gate td{
+}
+table.logic-gate thead tr td{
+    border-bottom: 1px solid black;
+}
+table.logic-gate tr td:first-child{
+    border-right: 1px solid black;
+}
+ul.inline-list {
+
+}
+ul.inline-list li{
+    display:inline;
+    padding:10px;
+}
+form.submission-form{
+  float: none;
+  text-align: left;
+}
+form.submission-form div{
+
+}
+form.submission-form div label{
+    vertical-align: top;
+    width:20%;
+    display:inline-block;
+    text-align:right;
+}
+form.submission-form fieldset{
+  width: 100%;
+  margin-top: 10%;
+}
+form.submission-form fieldset legend{
+  text-align: center;
+}
+form.submission-form div input,
+form.submission-form div select,
+form.submission-form div textarea{
+    width:60%;
+}
+form.submission-form button{
+    width:30%;
+    height:2em;
+}
+
+form label:after{
+    content:":";
+}
+form .required label:before{
+    content:"*";
+    color:red;
+    font-weight:bold;
+}
+
+form.submission-form input[type='checkbox']{
+    width:auto;
+}
+
+input:invalid{
+    background: rgb(255, 0, 0);
+}
+
+div.form-group.form-options{
+  text-align: center;
+}
+div.form-group.form-options input{
+    display:inline-block;
+    width:auto;
+    margin-left:0;
+}
+div.form-group.form-options label{
+    display:inline-block;
+    text-align: left;
+}
+div.form-group.form-options label:after{
+    content:"";
+}
+
+.red-text{
+    color:#FF0000;
+}
+
+
+input:valid{
+
+}
+</style>
